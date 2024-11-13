@@ -8,7 +8,7 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Authors>Michael Pavlushik</Authors>
 		<Description>This extension for SnapCLI library enables validation of command-line arguments based on data annotation attributes, ensuring that input meets specified criteria before executing the command.</Description>
-		<RepositoryUrl>https://github.com/mikepal2/snap-cli</RepositoryUrl>
+		<RepositoryUrl>https://github.com/mikepal2/snap-cli-data-annotations</RepositoryUrl>
 		<Version>1.0.0-pre</Version>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
