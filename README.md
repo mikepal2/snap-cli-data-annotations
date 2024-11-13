@@ -1,6 +1,6 @@
 ﻿# SnapCLI.DataAnnotations
 
-This extension for the [SnapCLI🗗](https://www.nuget.org/packages/SnapCLI/) library enables validation of command-line arguments using [DataAnnotations🗗](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel/dataannotations) validation attributes. It allows you to ensure that command-line input meets specified criteria before executing the command.
+This extension for the [SnapCLI🗗](https://www.nuget.org/packages/SnapCLI/) library enables validation of command-line arguments using [DataAnnotations🗗](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations) validation attributes. It allows you to ensure that command-line input meets specified criteria before executing the command.
 
 ## Prerequisite
 
