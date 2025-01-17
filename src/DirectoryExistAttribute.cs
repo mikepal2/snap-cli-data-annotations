@@ -4,10 +4,16 @@ using System.IO;
 
 namespace SnapCLI.DataAnnotations
 {
-    sealed class DirectoryExistAttribute : ValidationAttribute
+    /// <summary>
+    /// Validates directory exist
+    /// </summary>
+    public sealed class DirectoryExistAttribute : ValidationAttribute
     {
+        /// <inheritdoc/>
         public bool AllowNullValue { get; set; }
+        /// <inheritdoc/>
         public override bool RequiresValidationContext => false;
+        /// <inheritdoc/>
         public override bool IsValid(object? value)
         {
             if (value == null)

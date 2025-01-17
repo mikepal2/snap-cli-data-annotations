@@ -4,10 +4,16 @@ using System.IO;
 
 namespace SnapCLI.DataAnnotations
 {
-    sealed class FileExistAttribute : ValidationAttribute
+    /// <summary>
+    /// Validates file exist
+    /// </summary>
+    public sealed class FileExistAttribute : ValidationAttribute
     {
+        /// <inheritdoc/>
         public bool AllowNullValue { get; set; }
+        /// <inheritdoc/>
         public override bool RequiresValidationContext => false;
+        /// <inheritdoc/>
         public override bool IsValid(object? value)
         {
             if (value == null)
@@ -22,6 +28,6 @@ namespace SnapCLI.DataAnnotations
                 default:
                     throw new NotSupportedException($"The {nameof(FileExistAttribute)} doesn't support validation of {value.GetType()}");
             }
-        }        
+        }
     }
 }
